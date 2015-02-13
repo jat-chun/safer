@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/title"
+        android:text="手机卫士" />
+
+    <View style="@style/devide_line" />
+    <!-- 把边框设置成透明的 cacheColorHint和listSelector的属性颜色设置成透明的 -->
+
+    <GridView
+        android:id="@+id/gv_main_gv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3" >
+    </GridView>
+
+</LinearLayout>

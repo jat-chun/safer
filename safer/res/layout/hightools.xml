@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_itembtn_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/title"
+        android:text="高级工具" />
+
+    <View style="@style/devide_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="是否版本更新"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/cb_is_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/tv_is_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已开启自动更新" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="是否自动ip拨号"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/cb_is_ipcall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/tv_is_ipcall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已开启ip拨号" />
+    </LinearLayout>
+
+</LinearLayout>
