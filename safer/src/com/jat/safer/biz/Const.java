@@ -10,4 +10,5 @@ public class Const {
 	public static final String SAFERPASSWORD = "password";//设置我的手机防盗密码
 	public static final String ISSETUP = "issetup";//设置是否进行手机向导
 	public static final String SAFE_NUMBER = "safe_number";//设置是否进行手机向导
+	public static final String SAFE_REMENBER = "safe_number";
 }
